@@ -1,12 +1,9 @@
 import React from 'react';
-import Pokegame from "./Pokegame";
-import './App.css';
+import Pokegame from './components/pokegame/Pokegame';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Pokegame />
-    </div>
+    <Pokegame />
   );
 }
 
